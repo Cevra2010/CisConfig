@@ -1,0 +1,17 @@
+{
+    "name": "cis/cis-config",
+    "description": "A database based configuration manager for laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Cis\\CisConfig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Markus Klebsattel",
+            "email": "markusklebsattel@gmail.com"
+        }
+    ],
+    "require": {}
+}
