@@ -2,6 +2,8 @@
     "name": "cis/cis-config",
     "description": "A database based configuration manager for laravel",
     "type": "library",
+    "license": "MIT",
+    "version": "0.1.0-alpha",
     "autoload": {
         "psr-4": {
             "CisConfig\\": "src/"
@@ -13,5 +15,8 @@
             "email": "markusklebsattel@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0.0",
+        "laravel/laravel":"9.*"
+    }
 }
