@@ -3,7 +3,7 @@
     "description": "A database based configuration manager for laravel",
     "type": "library",
     "license": "MIT",
-    "version": "0.1.0-alpha",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "CisConfig\\": "src/"
@@ -17,5 +17,6 @@
     ],
     "require": {
         "php": ">=8.0.0"
-    }
+    },
+    "minimum-stability": "dev"
 }
